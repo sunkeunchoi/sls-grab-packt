@@ -4,6 +4,7 @@ provider:
   runtime: nodejs4.3
   cfLogs: true
   timeout: 60
+  memorySize: 128
 functions:
   handler:
     handler: handler.handler
